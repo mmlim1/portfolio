@@ -104,12 +104,11 @@ main {
 /********************************************* About Page ***********************************************/
 #about {
   display: flex;
-  height: 100px;
+  height: 150px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #4C8077;
-  margin-top: 0px;
   font-family:'Times New Roman', Times, serif;
   color: white;
 }
@@ -126,12 +125,11 @@ main {
 /********************************************* Contact Page ***********************************************/
 #contact {
   display: flex;
-  height: 100px;
+  height: 150px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #4C8077;
-  margin-top: 0px;
   font-family:'Times New Roman', Times, serif;
   color: white;
 }
@@ -141,6 +139,27 @@ main {
 }
 
 #contact > p {
+  margin: 0 50px;
+  font-size: 25px;
+}
+
+/********************************************* Contact Page ***********************************************/
+#resume {
+  display: flex;
+  height: 325px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #4C8077;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+
+#resume > h1 {
+  margin: 0 auto 30px 20px;
+}
+
+#resume > p {
   margin: 0 50px;
   font-size: 25px;
 }
