@@ -17,8 +17,9 @@ body {
   margin: 0;
 }
 
-/* Nav Styling */
-nav {
+
+/* Header Styling */
+header {
   display: flex;
   height: 100px;
   background: linear-gradient(#481A93, #4C8077);
@@ -27,17 +28,39 @@ nav {
   justify-content: flex-start;
 }
 
-nav > div {
-  font-size: 30px;
-  font-family:'Times New Roman', Times, serif;
-  margin: 0px 10px 0px 10px;
-  color: white;
-}
-
-nav > button:last-child {
+header > button:last-child {
   margin-left: auto;
   margin-right: 10px;
 }
+
+/* Welcome Styling */
+#welcome {
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  margin: 0px 20px 0px 10%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav Styling */
+nav {
+  display: flex;
+  height: 100px;
+  background: linear-gradient(#4C8077, #481A93);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > div {
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  margin: 0px 20px 0px 20px;
+  color: white;
+}
+
 
 /* Title Styling */
 #title {
@@ -56,9 +79,14 @@ nav > button:last-child {
 /* Main Styling */
 main {
   display: flex;
-  height: 500px;
   background-color:#4C8077;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
+
+#profile-pic {
+  margin: 10px 10% 5% auto;
+  border-radius: 10%;
+}
+
