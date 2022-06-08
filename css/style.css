@@ -91,6 +91,13 @@ main {
   margin: 10px 10% 5% auto;
   border-radius: 10%;
 }
+
+#ttt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+}
 /* page break */
 .page-break {
   height: 100px;
@@ -143,7 +150,35 @@ main {
   font-size: 25px;
 }
 
-/********************************************* Contact Page ***********************************************/
+/********************************************* Skills Page ***********************************************/
+#skill {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #4C8077;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+
+#skill > h1 {
+  margin: 0 auto 30px 20px;
+}
+
+#skill > p {
+  margin: 0 50px;
+  font-size: 25px;
+}
+
+.skill-logo {
+  height: 100px;
+  margin: 0px 10px;
+}
+
+
+
+/********************************************* Resume Page ***********************************************/
 #resume {
   display: flex;
   height: 325px;
@@ -163,3 +198,31 @@ main {
   margin: 0 50px;
   font-size: 25px;
 }
+
+
+/********************************************* Work Page *******************************************/
+#work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#work {
+  display: flex;
+  height: 525px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #4C8077;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+
+#work > h1 {
+  margin: 0 auto 30px 20px;
+}
+
+#work > p {
+  margin: 0 50px;
+  font-size: 25px;
+}
+
