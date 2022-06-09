@@ -18,6 +18,8 @@ body {
 }
 
 
+
+
 /* Header Styling */
 header {
   display: flex;
@@ -33,6 +35,7 @@ header > button:last-child {
   margin-right: 10px;
 }
 
+
 /* Welcome Styling */
 #welcome {
   font-size: 30px;
@@ -43,6 +46,8 @@ header > button:last-child {
   align-items: center;
   justify-content: center;
 }
+
+
 
 /* Nav Styling */
 nav {
@@ -79,16 +84,14 @@ nav > .link {
 }
 
 /* Main Styling */
-main {
+#main {
   display: flex;
-  background-color:#4C8077;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  background-color:#4C8077;
 }
 
 #profile-pic {
-  margin: 10px 10% 5% auto;
   border-radius: 10%;
 }
 
@@ -227,4 +230,18 @@ main {
   margin: 0 auto 30px 20px;
   font-family:'Times New Roman', Times, serif;
   color: white;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  #main {
+    flex-direction: row;
+  }
 }
