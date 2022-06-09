@@ -216,26 +216,15 @@ main {
 /********************************************* Work Page *******************************************/
 #work {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#work {
-  display: flex;
-  height: 525px;
+  height: 600px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background: #4C8077;
-  font-family:'Times New Roman', Times, serif;
-  color: white;
 }
+
 
 #work > h1 {
   margin: 0 auto 30px 20px;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
 }
-
-#work > p {
-  margin: 0 50px;
-  font-size: 25px;
-}
-
