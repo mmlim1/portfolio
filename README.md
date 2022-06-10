@@ -4,4 +4,4 @@ In making my porfolio, a Bootstrap card component was used to make asthetically 
 
 Are you ready for some fun and a tour of my porfolio? If yes, click the link below!
 
-[](https://portfolio-mmlim.netlify.app/ "Michael Lim's Porfolio")
+[Michael Lim's Portfolio](https://portfolio-mmlim.netlify.app/ "Michael Lim's Portfolio")
