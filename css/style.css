@@ -146,13 +146,12 @@ nav > .link {
   color: white;
 }
 
-#contact > p {
+#contact-list {
   margin: 0 50px;
   font-size: 25px;
   text-decoration: none;
   color: white;
   font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
 }
 
 /********************************************* Skills Page ***********************************************/
@@ -200,6 +199,13 @@ nav > .link {
 #resume > p {
   margin: 0 50px;
   font-size: 25px;
+}
+
+#resume-link-out {
+  text-decoration: none;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: white;
 }
 
 /********************************************* Work Page *******************************************/
