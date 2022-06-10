@@ -12,6 +12,7 @@ const title = document.getElementById('title')
 
 const about = document.getElementById('about-link')
 const contact = document.getElementById('contact-link')
+const skill = document.getElementById('skill-link')
 const resume = document.getElementById('resume-link')
 const work = document.getElementById('work-link')
 
@@ -38,6 +39,10 @@ about.addEventListener('click', function() {
 
 contact.addEventListener('click', function() {
   document.location.href='#contact';
+})
+
+skill.addEventListener('click', function() {
+  document.location.href='#skill';
 })
 
 resume.addEventListener('click', function() {
