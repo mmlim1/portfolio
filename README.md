@@ -11,7 +11,7 @@ Click the links below to my access my portfolio and Trello planning board:
 
 # Screenshot:
 
-![screenshot of main view](./screenhot-of-main-view.png)
+![screenshot of main view](./screenshot-of-main-view.png)
 
 # Technologies Used:
 
