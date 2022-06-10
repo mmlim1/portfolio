@@ -21,8 +21,6 @@ const jsLogo = document.getElementById('js')
 
 const cardContainer = document.getElementById('card-container')
 
-
-
 /*----------------------------- Event Listeners -----------------------------*/
 title.addEventListener('mouseover', function(evt) {
   evt.target.style.color = 'pink';
@@ -71,10 +69,6 @@ jsLogo.addEventListener('mouseover', function(evt) {
   }, 500)
 }, false)
 
-
-
-
-
 /*-------------------------------- Functions --------------------------------*/
 let projectMarkup = projectData.map(project => 
   `
@@ -91,8 +85,6 @@ let projectMarkup = projectData.map(project =>
   </div>
 `
 ).join('')
-
-console.log(projectMarkup)
 
 cardContainer.innerHTML = projectMarkup
 

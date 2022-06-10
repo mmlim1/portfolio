@@ -17,9 +17,6 @@ body {
   margin: 0;
 }
 
-
-
-
 /* Header Styling */
 header {
   display: flex;
@@ -35,7 +32,6 @@ header > button:last-child {
   margin-right: 10px;
 }
 
-
 /* Welcome Styling */
 #welcome {
   font-size: 30px;
@@ -47,8 +43,6 @@ header > button:last-child {
   justify-content: center;
 }
 
-
-
 /* Nav Styling */
 nav {
   display: flex;
@@ -59,7 +53,6 @@ nav {
   justify-content: center;
 }
 
-
 nav > .link {
   text-decoration: none;
   font-size: 30px;
@@ -67,7 +60,6 @@ nav > .link {
   margin: 0px 20px 0px 20px;
   color: white;
 }
-
 
 /* Title Styling */
 #title {
@@ -111,6 +103,7 @@ nav > .link {
   height: 100px;
   background: linear-gradient(#4C8077, #481A93, #4C8077);
 }
+
 /********************************************* About Page ***********************************************/
 #about {
   display: flex;
@@ -183,8 +176,6 @@ nav > .link {
   margin: 0px 10px;
 }
 
-
-
 /********************************************* Resume Page ***********************************************/
 #resume {
   display: flex;
@@ -213,8 +204,6 @@ nav > .link {
   font-size: 25px;
   font-weight: bold;
 }
-
-
 
 /********************************************* Work Page *******************************************/
 #work {
